@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: initial;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1px;
+    font-size: 116px;
+    color: rgb(255, 0, 0);
+    font-family: 'Montserrat';
+}
+
+.wprapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._container {
+    max-width: 1046px;
+    margin: 0 auto;
+}
